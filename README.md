@@ -6,11 +6,11 @@ Examples for
 - 토큰은 만료되지 않지만, 새로 generate되면 만료됨.
 
 # Why Use Android O's SMS Token?
-- 앱의 사용자 경험을 향상시
-  - SMS client로부터 copy and paste 할 필요 없음
+- 사용자 경험을 향상시킴
+  - SMS Client 로부터 copy and paste 할 필요 없음
   - 사용자 폰으로 전송된 토큰을 자동 디텍팅해서 PendingIntent를 실행함
 - READ_SMS 권한이 필요 없음
-- 메시지가 남지 않음
+- SMS Client에 메시지가 남지 않음
 
 # Using a Server
 - [앱] SMS Token Generation
